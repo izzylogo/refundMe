@@ -1,0 +1,36 @@
+main{
+    min-height: 70vh;
+    text-align: center;
+}
+
+h1{
+    background-color: #141E46;
+    color: #F5F5F5;
+    padding: 20px;
+}
+
+.about-det{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 10px;
+}
+
+h4{
+    font-size: 30px;
+
+    @media (max-width: 600px) {
+        font-size: 20px;
+    }
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+
+    @media (max-width: 600px) {
+        font-size: 14px;
+    }
+}

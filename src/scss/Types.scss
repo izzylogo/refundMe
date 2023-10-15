@@ -1,0 +1,41 @@
+.types-contain{
+    max-width: 70%;
+    margin: 20px auto;
+    text-align: center;
+
+    @media (max-width: 900px) {
+        max-width: 90%;
+    }
+
+    @media (max-width: 600px) {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+.card-cover{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 40px;
+
+    @media (max-width: 600px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.cards{
+    border: 1px solid #640f05;
+    padding: 15px;
+    transition: .3s ease;
+
+    &:hover{
+        background-color: #01172d;
+        color: white;
+    }
+
+    p{
+        font-weight: 600;
+    }
+}
