@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <div class="mainwhy">
     <div class="why">
         <div class="tabs">
             <h2>Why Work With Us?</h2>
@@ -10,7 +10,7 @@
             <p>The fund recovery process can be a lengthy one and requires perseverance. Therefore it is vital that our clients are ready for it and trust us every step of the way. So if for any reason you are doubtful, you can ask for a full refund within the first 14 business days of the process.*</p>
         </div>
     </div>
-  </main>
+  </div>
 </template>
 
 <script>

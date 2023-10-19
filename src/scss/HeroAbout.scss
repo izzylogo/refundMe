@@ -1,4 +1,6 @@
-main{}
+.aboutmain{
+    // background-color: #F5EFE7;
+}
 
 .about{
     padding: 10px;
@@ -21,5 +23,25 @@ main{}
 
     @media (max-width: 600px) {
         max-width: 100%;
+    }
+}
+
+.cofounders{
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        li{
+            list-style: none;
+
+            .pics{
+                img{
+                    width: 50%;
+                    height: 50%;
+                    border-radius: 50%;
+                }
+            }
+        }
     }
 }

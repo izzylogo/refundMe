@@ -1,0 +1,59 @@
+.herohow{
+    background-color: rgb(233, 242, 247);
+    color: rgb(17, 34, 43);
+    padding: 30px 0px;
+}
+
+.cover{
+    max-width: 70%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 900px) {
+        max-width: 90%;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+.left h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.left button{
+    background-color: #fdfdfd;
+    padding: 10px 15px;
+    border-radius: 20px;
+
+    @media (max-width: 900px) {
+        display: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.bottom{
+    display: none;
+    @media (max-width: 900px) {
+        display: block;
+        width: 100%;
+    }
+
+    button{
+        background-color: #fdfdfd;
+        padding: 10px 15px;
+        border-radius: 20px;
+        width: 100%;
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    }
+}

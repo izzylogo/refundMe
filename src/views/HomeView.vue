@@ -1,11 +1,12 @@
 <template>
   <div class="cover">
-    <main>
+    <!-- <main> -->
       <Hero/>
       <HeroAbout/>
-      <Why/>
+      <HeroHow/>
       <Types/>
-    </main>
+      <Why/>
+    <!-- </main> -->
   </div>
 </template>
 
@@ -14,22 +15,21 @@ import Hero from '@/components/Hero/Hero.vue';
 import HeroAbout from '@/components/Hero/HeroAbout.vue';
 import Why from '@/components/Hero/Why.vue';
 import Types from '@/components/Hero/Types.vue';
+import HeroHow from '@/components/Hero/HeroHow.vue';
 export default{
   name: 'HomeView',
-  components: {Hero, HeroAbout, Why, Types,}
+  components: {Hero, HeroAbout, Why, Types, HeroHow}
 };
 </script>
 
 <style lang="scss" scoped>
 
-main{
+/* main{
   overflow-x: hidden;
   overflow-y: auto;
   max-width: 1400px;
   margin: 0px auto;
   
-  /* font-family: Inter, Verdana, sans-serif; */
-
   &::-webkit-scrollbar-track {
         background-color: transparent;
       }
@@ -37,7 +37,7 @@ main{
         width: 5px;
       }
       &::-webkit-scrollbar-thumb {
-        background-color: red;
+        background-color: rgb(0, 255, 229);
         -moz-border-radius: 4px;
         -webkit-border-radius: 4px;
         border-radius: 4px;
@@ -46,8 +46,10 @@ main{
         border-radius: 4px;
       }
 
-}
+} */
 .cover{
+  display: flex;
+  flex-direction: column;
   overflow-x: hidden;
   overflow-y: auto;
   /* font-family: Inter, Verdana, sans-serif; */
@@ -59,7 +61,7 @@ main{
         width: 5px;
       }
       &::-webkit-scrollbar-thumb {
-        background-color: red;
+        background-color: rgb(0, 106, 255);
         -moz-border-radius: 4px;
         -webkit-border-radius: 4px;
         border-radius: 4px;

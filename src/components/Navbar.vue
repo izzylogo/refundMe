@@ -22,7 +22,7 @@
         <div class="burger"
             @click="toggleNav"
         >
-            <div class="line1"></div>
+            <div class="line1"></div> 
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
@@ -30,11 +30,33 @@
     <div v-if="toggle" class="media">
         <div class="media-cover">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>How it works</li>
-                <li>Contact Us</li>
+                <li @click="toggle = false">
+                    <router-link to="/">
+                        Home
+                    </router-link>
+                </li>
+                <li @click="toggle = false">
+                    <router-link to="/about">
+                        About
+                    </router-link>
+                </li>
+                <li @click="toggle = false">
+                    <router-link to="/how-work">
+                        How it works
+                    </router-link>
+                </li>
+                <li @click="toggle = false">
+                    <router-link to="/complain">
+                        Contact Us
+                    </router-link>
+                </li>
             </ul>
+            <div class="button">
+                <button @click="toggle = false">
+                    <router-link to="/complain">Get Your Money</router-link>
+                </button>
+
+            </div>
         </div>
     </div>
   </nav>
