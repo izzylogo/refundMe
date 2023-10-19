@@ -41,7 +41,7 @@
                     </router-link>
                 </li>
                 <li @click="toggle = false">
-                    <router-link to="/how-work">
+                    <router-link to="/how-works">
                         How it works
                     </router-link>
                 </li>
