@@ -18,7 +18,11 @@
                 </li>
             </ul>
         </div>
-        <div class="right">Get Your Money Back</div>
+        <div class="right">
+            <router-link to="/complain">
+                Get Your Money Back
+            </router-link>
+        </div>
         <div class="burger"
             @click="toggleNav"
         >

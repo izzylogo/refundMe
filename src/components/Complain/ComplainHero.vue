@@ -29,10 +29,29 @@
                         :rules="rules3"
                         label="Last transaction date"
                     ></v-text-field>
+                    <v-text-field
+                        v-model="lastTransaction"
+                        :rules="rules3"
+                        label="Amount Lost"
+                    ></v-text-field>
+                    <v-text-field
+                        v-model="lastTransaction"
+                        :rules="rules3"
+                        label="Currency"
+                    ></v-text-field>
                     <v-textarea
                         v-model="story"
                         label="Tell your story"
                     ></v-textarea>
+                    <v-select
+                      v-model="select"
+                      :items="states"
+                      density="compact"
+                      variant="outlined"
+                      label="Location name"
+                      class="mb-2"
+                      required
+                    ></v-select>
                     <v-btn type="submit" block class="mt-2">Submit</v-btn>
                 </v-form>
             </div>
@@ -84,6 +103,69 @@ export default {
 
           return 'You can enter a story.'
         },
+      ],
+      thelocation: "",
+      manager: "",
+      states: [
+        "Alabama",
+        "Alaska",
+        "American Samoa",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Delaware",
+        "District of Columbia",
+        "Federated States of Micronesia",
+        "Florida",
+        "Georgia",
+        "Guam",
+        "Hawaii",
+        "Idaho",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Marshall Islands",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Montana",
+        "Nebraska",
+        "Nevada",
+        "New Hampshire",
+        "New Jersey",
+        "New Mexico",
+        "New York",
+        "North Carolina",
+        "North Dakota",
+        "Northern Mariana Islands",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Palau",
+        "Pennsylvania",
+        "Puerto Rico",
+        "Rhode Island",
+        "South Carolina",
+        "South Dakota",
+        "Tennessee",
+        "Texas",
+        "Utah",
+        "Vermont",
+        "Virgin Island",
+        "Virginia",
+        "Washington",
+        "West Virginia",
+        "Wisconsin",
+        "Wyoming",
       ],
     }),
 }

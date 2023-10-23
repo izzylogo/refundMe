@@ -22,7 +22,7 @@
                         </div>
                     </li>
                     <li>
-                        <img :src="require('../../assets/Will.jpg')" alt="">
+                        <img :src="require('../../assets/stuart.jpg')" alt="">
                         <div class="detail">
                             <h3>Williams Ayles</h3>
                             <div class="text">
@@ -70,7 +70,7 @@ export default {
             name: 'Israel',
           },
           {
-            src: require('../../assets/Will.jpg'),
+            src: require('../../assets/stuart.jpg'),
             name: 'Israel',
           },
         ],

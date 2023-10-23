@@ -29,12 +29,12 @@
                   class="bg-white"
                   width="300"
                   :aspect-ratio="1"
-                  src='../../assets/Will.jpg'
+                  src='../../assets/stuart.jpg'
                   cover
                   style="border-radius: 50%;"
                 ></v-img>
               </div>
-              <div class="name"><h3>Williams Ayles</h3></div>
+              <div class="name"><h3>Stuart McFadden</h3></div>
               <div class="position"><p>Co-Founder</p></div>
             </li>
           </ul>
@@ -67,11 +67,11 @@ export default {
         items: [
           {
             src: require('../../assets/Will.jpg'),
-            name: 'Israel',
+            name: 'Williams Ayles',
           },
           {
-            src: require('../../assets/Will.jpg'),
-            name: 'Israel',
+            src: require('../../assets/stuart.jpg'),
+            name: 'Stuart McFadden',
           },
         ],
       }
