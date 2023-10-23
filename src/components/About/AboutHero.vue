@@ -24,7 +24,7 @@
                     <li>
                         <img :src="require('../../assets/stuart.jpg')" alt="">
                         <div class="detail">
-                            <h3>Williams Ayles</h3>
+                            <h3>Stuart McFadden</h3>
                             <div class="text">
                                 <p>Will’s background in financial services started in multi asset investment analysis before moving to Monzo Bank. His specialism in Operations meant that he’s worked across a number of different areas including Lending, Vulnerable Customer, and Financial Difficulties. He then led the Business Banking Operations at Monzo.</p>
                                 <p>Having seen how many banks were failing to support victims of scams, he set up Refundee in 2021 to help victims when they need it most.</p>
@@ -67,11 +67,11 @@ export default {
         items: [
           {
             src: require('../../assets/Will.jpg'),
-            name: 'Israel',
+            name: 'Williams Ayles',
           },
           {
             src: require('../../assets/stuart.jpg'),
-            name: 'Israel',
+            name: 'Stuart McFadden',
           },
         ],
       }
