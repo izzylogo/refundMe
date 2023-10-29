@@ -7,7 +7,7 @@
         <p>There are tens of millions of victims every single year throughout the world. We know how to recover your funds and we helped thousands of scam victims from around the world to recover their funds.</p>
         <br>
         <div class="cofounders"
-        v-if="!$vuetify.display.mdAndDown"        
+        v-if="!$vuetify.display.smAndDown"        
         >
           <ul>
             <li>
@@ -41,7 +41,7 @@
         </div>
         <div 
             class="small"
-            v-if="$vuetify.display.mdAndDown"        
+            v-if="$vuetify.display.smAndDown"        
         >
             <v-carousel hide-delimiters style="height: 100%;">
                 <v-carousel-item v-for="(item,i) in items" :key="i" cover>

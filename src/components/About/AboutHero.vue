@@ -2,13 +2,13 @@
     <div class="aboutmain">
         <div class="about-top">
             <h1>About ReundMe and the team</h1>
-            <p>You will only work with experts when you deal with Refundee</p>
+            <p>You will only work with experts when you deal with RefundTrace</p>
         </div>
         <div class="founder">
             <h2>Our Founders</h2>
             <div 
                 class="founders"
-                v-if="!$vuetify.display.mdAndDown"    
+                v-if="!$vuetify.display.smAndDown"    
             >
                 <ul>
                     <li>
@@ -17,7 +17,7 @@
                             <h3>Williams Ayles</h3>
                             <div class="text">
                                 <p>Will’s background in financial services started in multi asset investment analysis before moving to Monzo Bank. His specialism in Operations meant that he’s worked across a number of different areas including Lending, Vulnerable Customer, and Financial Difficulties. He then led the Business Banking Operations at Monzo.</p>
-                                <p>Having seen how many banks were failing to support victims of scams, he set up Refundee in 2021 to help victims when they need it most.</p>
+                                <p>Having seen how many banks were failing to support victims of scams, he set up RefundTrace in 2021 to help victims when they need it most.</p>
                             </div>
                         </div>
                     </li>
@@ -27,7 +27,7 @@
                             <h3>Stuart McFadden</h3>
                             <div class="text">
                                 <p>Will’s background in financial services started in multi asset investment analysis before moving to Monzo Bank. His specialism in Operations meant that he’s worked across a number of different areas including Lending, Vulnerable Customer, and Financial Difficulties. He then led the Business Banking Operations at Monzo.</p>
-                                <p>Having seen how many banks were failing to support victims of scams, he set up Refundee in 2021 to help victims when they need it most.</p>
+                                <p>Having seen how many banks were failing to support victims of scams, he set up RefundTrace in 2021 to help victims when they need it most.</p>
                             </div>
                         </div>
                     </li>
@@ -35,14 +35,14 @@
             </div>
             <div 
                 class="small"
-                v-if="$vuetify.display.mdAndDown"        
+                v-if="$vuetify.display.smAndDown"        
             >
                 <v-carousel hide-delimiters style="height: 100%;">
                     <v-carousel-item v-for="(item,i) in items" :key="i" cover>
                     <div style="padding: 20px; width: 80%; margin: 0px auto">
                         <img :src="item.src" style="width: 100%" />
                         <p>{{item.name}}</p>
-                        <p>Having seen how many banks were failing to support victims of scams, he set up Refundee in 2021 to help victims when they need it most.</p>
+                        <p>Having seen how many banks were failing to support victims of scams, he set up RefundTrace in 2021 to help victims when they need it most.</p>
                     </div>
 
                     </v-carousel-item>

@@ -23,11 +23,11 @@
                     </li>
                     <li>
                         <h3>The Bank</h3>
-                        <p>Refundee will prepare your individual case and submit a bespoke report to the bank in order to receive their formal response. </p>
+                        <p>RefundTrace will prepare your individual case and submit a bespoke report to the bank in order to receive their formal response. </p>
                     </li>
                     <li>
                         <h3>The Financial Ombudsman Service (FOS)</h3>
-                        <p>If the bank won't reimburse you, Refundee will present your case to the FOS who will conduct an independent review. This is the final stage; it determines the amount that you will be refunded.</p>
+                        <p>If the bank won't reimburse you, RefundTrace will present your case to the FOS who will conduct an independent review. This is the final stage; it determines the amount that you will be refunded.</p>
                     </li>
                 </ol>
             </v-expansion-panel-text>
@@ -49,7 +49,7 @@
                 <p>Do it yourself</p>
             </v-expansion-panel-title>
             <v-expansion-panel-text>
-                <p>You don’t need to use a Claims Management Company like Refundee to get your money back (and can save paying a fee if you don’t). If you feel confident doing it yourself, you can.</p>
+                <p>You don’t need to use a Claims Management Company like RefundTrace to get your money back (and can save paying a fee if you don’t). If you feel confident doing it yourself, you can.</p>
             </v-expansion-panel-text>
             </v-expansion-panel>
             </v-expansion-panels>

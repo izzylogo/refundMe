@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="nav-cover">
-        <div class="left">refundeee</div>
+        <div class="left">RefundTrace</div>
         <div class="middle">
             <ul>
                 <li>
