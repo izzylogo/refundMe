@@ -24,7 +24,7 @@
                 show-arrows
                 >
                 <v-slide-group-item
-                    v-for="n in 25"
+                    v-for="n in 6"
                     style="gap: 20px;"
                     :key="n"
                 >
