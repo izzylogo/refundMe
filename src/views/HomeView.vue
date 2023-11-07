@@ -6,6 +6,7 @@
       <HeroHow/>
       <Types/>
       <Why/>
+      <Testimonal/>
     <!-- </main> -->
   </div>
 </template>
@@ -16,9 +17,10 @@ import HeroAbout from '@/components/Hero/HeroAbout.vue';
 import Why from '@/components/Hero/Why.vue';
 import Types from '@/components/Hero/Types.vue';
 import HeroHow from '@/components/Hero/HeroHow.vue';
+import Testimonal from '@/components/Hero/Testimonal.vue';
 export default{
   name: 'HomeView',
-  components: {Hero, HeroAbout, Why, Types, HeroHow}
+  components: {Hero, HeroAbout, Why, Types, HeroHow, Testimonal,}
 };
 </script>
 

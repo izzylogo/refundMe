@@ -336,6 +336,7 @@ export default {
             amount: this.amountLost,
             currency: this.currency,
             story: this.story,
+            location: this.thelocation,
           })
           this.reponseData = reponse.data
           this.loading = false

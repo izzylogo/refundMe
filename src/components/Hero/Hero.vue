@@ -11,7 +11,7 @@
           <img :src="require('../../assets/refund.png')" alt="">
         </div>
       </div>
-      <div class="hero-btn">
+      <div class="hero-btn">  
           <!-- <p>If you’ve lost money to scammers, contact us now and we’ll work with you to get your money back!</p> -->
           <button>
             <router-link to="/complain">Get your money back</router-link>

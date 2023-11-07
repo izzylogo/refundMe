@@ -14,6 +14,15 @@
         <h4>Location</h4>
         <p>Hilazon 5, Ramat Gan, Israel, 5252269</p>
       </div>
+      <div class="bank">
+        <h4>Banks</h4>
+        <ul>
+          <li>Banks Transfers</li>
+          <li>Barclays</li>
+          <li>Revoult</li>
+          <li>HSBC</li>
+        </ul>
+      </div>
       <div class="soci">
         <h4>Social</h4>
         <ul>
