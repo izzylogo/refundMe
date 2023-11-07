@@ -46,7 +46,7 @@
                     ></v-textarea>
                    
                     <v-select
-                    label="Select"
+                    label="Country"
                     :items="states"
                     variant="outlined"
                     v-model="thelocation"
