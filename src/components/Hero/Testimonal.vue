@@ -1,9 +1,10 @@
 <template>
     <div class="testimonals">
         <div class="testimonal-cover">
+            <h2>Testimonials</h2>
             <div 
             class="small"
-        >
+            >
             <v-sheet
                 class="mx-auto"
                 max-width="100%"
