@@ -5,11 +5,16 @@
 
     @media (max-width: 900px) {
         max-width: 100%;
+        padding: 10px;
     }
 }
 
 .v-card{
     width: 300px;
+
+    @media (max-width: 900px) {
+        width: 220px;
+    }
 }
 
 h2, h5{

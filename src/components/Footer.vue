@@ -23,14 +23,14 @@
           <li>HSBC</li>
         </ul>
       </div>
-      <div class="soci">
+      <!-- <div class="soci">
         <h4>Social</h4>
         <ul>
           <li>Facebook</li>
           <li>Twitter</li>
           <li>Youtube</li>
         </ul>
-      </div>
+      </div> -->
       <div class="off-hrs">
         <h4>Our Office Hours</h4>
         <ul>

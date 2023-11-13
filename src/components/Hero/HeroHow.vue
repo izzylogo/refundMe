@@ -4,7 +4,7 @@
         <div class="left">
             <h2>How it works</h2>
             <button>
-                <router-link to="/how-work">How it Works</router-link>
+                <router-link to="/how-works">How it Works</router-link>
             </button>
         </div>
         <div class="right">
