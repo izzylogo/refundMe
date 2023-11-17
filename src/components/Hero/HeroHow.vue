@@ -13,7 +13,7 @@
                 style="background-color: transparent; border-top: 1px solid black; border-bottom:  1px solid black;"
             >
             <v-expansion-panel-title>
-                <p>The <span>3</span> stages</p>
+                <h2 style="font-weight: 700;">The <span>3</span> stages</h2>
             </v-expansion-panel-title>
             <v-expansion-panel-text>
                 <ol>
@@ -36,7 +36,7 @@
                 style="background-color: transparent; border-top: 1px solid black; border-bottom:  1px solid black;"
             >
             <v-expansion-panel-title>
-                <p>Fees</p>
+                <h2 style="font-weight: 700;">Fees</h2>
             </v-expansion-panel-title>
             <v-expansion-panel-text>
                 <p>If we’re successful we charge 15% plus VAT on the money you get back.</p>
@@ -46,7 +46,7 @@
                 style="background-color: transparent; border-top: 1px solid black; border-bottom:  1px solid black;"
             >
             <v-expansion-panel-title>
-                <p>Do it yourself</p>
+                <h2 style="font-weight: 700;">Do it yourself</h2>
             </v-expansion-panel-title>
             <v-expansion-panel-text>
                 <p>You don’t need to use a Claims Management Company like RefundTrace to get your money back (and can save paying a fee if you don’t). If you feel confident doing it yourself, you can.</p>

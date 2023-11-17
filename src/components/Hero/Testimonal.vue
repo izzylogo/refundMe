@@ -4,12 +4,13 @@
             <h2>Testimonials</h2>
             <div 
             class="small"
+            v-if="!$vuetify.display.smAndDown"        
             >
-            <v-sheet
-                class="mx-auto"
-                max-width="100%"
-            >
-                <v-slide-group
+              <v-sheet
+                  class="mx-auto"
+                  max-width="100%"
+              >
+                  <v-slide-group
                 show-arrows
                 >
                 <v-slide-group-item
@@ -40,7 +41,24 @@
                     </v-btn> -->
                 </v-slide-group-item>
                 </v-slide-group>
-            </v-sheet>
+              </v-sheet>
+          </div>
+          <div 
+            class="small"
+            v-if="$vuetify.display.smAndDown"        
+            
+        >
+            <v-carousel hide-delimiters style="height: 100%;">
+                <v-carousel-item v-for="(item,i) in testimonal" :key="i" cover>
+                <div style="padding: 20px; width: 80%; margin: 0px auto" class="carousel-cover">
+                  <div class="image-cover">
+                    <img :src="item.image" style="width: 100%" />
+                  </div>
+                  <p>{{item.text}}</p>
+                </div>
+
+                </v-carousel-item>
+            </v-carousel>
         </div>
         </div>
     </div>

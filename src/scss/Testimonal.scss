@@ -37,3 +37,24 @@
 h2, h5{
     text-align: center;
 }
+
+.carousel-cover{
+    margin: 50px auto !important;
+    background-color: white;
+    box-shadow: 4px 3px 27px 12px rgba(213,213,213,0.91);
+    -webkit-box-shadow: 4px 3px 27px 12px rgba(213,213,213,0.91);
+    -moz-box-shadow: 4px 3px 27px 12px rgba(213,213,213,0.91);
+
+    .image-cover{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        img{
+            width: 100px !important;
+            height: 100px !important;
+            border-radius: 50%;
+        }
+    }
+}
