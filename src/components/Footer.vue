@@ -4,15 +4,16 @@
       <div class="cont">
         <h4>Contact Us</h4>
         <ul>
-          <li>IL +972-77-7408749</li>
-          <li>IL +972-77-7408749</li>
-          <li>IL +972-77-7408749</li>
-          <li>IL +972-77-7408749</li>
+          <li><a href="tel:+447752532144">+447752532144</a></li>
         </ul>
       </div>
       <div class="loct">
         <h4>Location</h4>
-        <p>Hilazon 5, Ramat Gan, Israel, 5252269</p>
+        <p>38, Breach Barns Lane</p>
+        <p>Waltham Abbey</p>
+        <p>Epping Forest</p>
+        <p>Essex, United Kingdom</p>
+        <p>EN9 2AQ</p>
       </div>
       <div class="bank">
         <h4>Banks</h4>
