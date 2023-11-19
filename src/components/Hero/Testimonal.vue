@@ -46,7 +46,7 @@
           <div 
             class="small"
             v-if="$vuetify.display.smAndDown"        
-            
+            style="min-height: 70vh;"
         >
             <v-carousel hide-delimiters style="height: 100%;">
                 <v-carousel-item v-for="(item,i) in testimonal" :key="i" cover>
