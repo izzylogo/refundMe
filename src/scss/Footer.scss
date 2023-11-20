@@ -1,4 +1,4 @@
-main{
+footer{
     background-color: #112152;
     color: rgba(238, 238, 238, 0.737);
     padding: 30px;
@@ -30,6 +30,7 @@ p{
     gap: 10px;
 
     @media (max-width: 600px) {
-        justify-content: inherit;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }

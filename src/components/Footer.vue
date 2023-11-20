@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <footer>
     <div class="footer-contain">
       <div class="cont">
         <h4>Contact Us</h4>
@@ -7,7 +7,7 @@
           <li><a href="tel:+447752532144">+447752532144</a></li>
         </ul>
       </div>
-      <div class="loct">
+      <div class="loct"> 
         <h4>Location</h4>
         <p>38, Breach Barns Lane</p>
         <p>Waltham Abbey</p>
@@ -41,7 +41,7 @@
         </ul>
       </div>
     </div>
-  </main>
+  </footer>
 </template>
 
 <script>
